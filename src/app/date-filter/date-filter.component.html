@@ -1,0 +1,10 @@
+<div class="date-filter">
+  <label class="date-filter_from">
+    From
+    <input type="date" class="datepicker" [(ngModel)]="dateRange.from" (ngModelChange)="onDateFromChange($event)">
+  </label>
+  <label class="date-filter_to">
+    To
+    <input type="date" class="datepicker" [(ngModel)]="dateRange.to" (ngModelChange)="onDateToChange($event)">
+  </label>
+</div>

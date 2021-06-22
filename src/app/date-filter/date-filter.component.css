@@ -1,0 +1,7 @@
+.date-filter label{
+  display: block;
+  text-align: end;
+}
+.date-filter_from{
+  margin-bottom: 10px;
+}

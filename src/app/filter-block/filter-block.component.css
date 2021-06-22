@@ -1,0 +1,30 @@
+.filter-block {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 900px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.filter-block_button{
+  background: #ed6e4b;
+  color: #FFFFFF;
+  border-radius: 50%;
+  padding: 15px 10px;
+  border: 1px solid rgba(255, 255, 255, .5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .25) inset,
+  0 2px 4px rgba(0, 0, 0, .25);
+  appearance: none;
+  outline: none;
+}
+
+.filter-block_button:hover {
+  background-color: #555;
+}
+
+.filter-block_button:active {
+  background-color: black;
+}
+
+

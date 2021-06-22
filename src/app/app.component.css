@@ -1,0 +1,32 @@
+.App{
+  width: 100%;
+  min-width: 360px;
+  text-align: center;
+}
+
+.App_title{
+  font-size: 5rem;
+  padding: 20px;
+}
+
+.App_navigation{
+  padding: 20px 0;
+}
+.App_navigation > a{
+  margin: 20px;
+  background-color: #ed6e4b;
+  color: white;
+  padding: 1vh 1.5vw;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}
+
+
