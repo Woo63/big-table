@@ -56,9 +56,10 @@ export class FilterBlockComponent implements OnInit{
     }
     console.log(this.dateRange)
     if (this.dateRange.from && this.dateRange.to){
-      const startDate = new Date(this.dateRange.from);
-      const endDate = new Date(this.dateRange.to);
-      filteredData=filteredData.filter((item) => { const nowDate= new Date(item.dt);
+      // убираем лишние 4 часа
+      const startDate = new Date(this.dateRange.from).getTime()-14400000;
+      const endDate = new Date(this.dateRange.to).getTime();
+      filteredData=filteredData.filter((item) => { const nowDate= new Date(item.dt).getTime();
         return (nowDate>=startDate)&&(nowDate<=endDate)})
     }
     this.filteredData=filteredData

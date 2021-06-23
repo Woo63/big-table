@@ -52,5 +52,8 @@ th {
 .Table {
   width: 100%;
   overflow: scroll;
-  max-height: calc(100vh - 356px);
+  max-height: calc(100vh - 320px);
+}
+.Table::-webkit-scrollbar {
+  height: 0;
 }

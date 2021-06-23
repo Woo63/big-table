@@ -363,3 +363,13 @@ input {
   max-width: 170px;
 }
 
+input:hover, input:focus {
+  border: 1px solid #ed6e4b;
+}
+
+input::-webkit-calendar-picker-indicator {
+  color: transparent;
+  margin: 0;
+  width: 15px;
+
+}

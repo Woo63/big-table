@@ -1,5 +1,5 @@
 <div class="filter-block">
-  <input type="text" placeholder="Main col" [(ngModel)]="word" (ngModelChange)="onWordChange($event)"/>
+  <input type="text" placeholder="Main column" [(ngModel)]="word" (ngModelChange)="onWordChange($event)"/>
   <app-date-filter [(dateRange)]="dateRange" [filteredData]="filterData" [key]="key"></app-date-filter>
   <button (click)="onClick()" class="filter-block_button">reset</button>
 </div>
