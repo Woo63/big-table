@@ -1,10 +1,7 @@
 table {
   table-layout: fixed;
-  margin-left: auto;
-  margin-right: auto;
-  width: 825px;
   border-collapse: collapse;
-  border: 2px solid #ed6e4b;
+  width: 825px;
 }
 
 thead th {
@@ -50,9 +47,14 @@ th {
 }
 
 .Table {
-  width: 100%;
+  max-width: 825px;
+  min-width: 355px;
+  width: 80vw;
   overflow: scroll;
   max-height: calc(100vh - 320px);
+  border: 2px solid #ed6e4b;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Table::-webkit-scrollbar {
   height: 0;
